@@ -22,3 +22,6 @@ SELECT * FROM pessoa WHERE id=1; //checar informação
 
 SELECT * FROM pessoa ORDER BY nome //Ordenação por ordem crescente, nome
 SELECT * FROM pessoa ORDER BY nome DESC //Ordenação por ordem descrente, nome
+
+
+SELECT COUNT (id), genero FROM pessoa GROUP BY genero; // Conta a quantidade de generos, baseado no id
